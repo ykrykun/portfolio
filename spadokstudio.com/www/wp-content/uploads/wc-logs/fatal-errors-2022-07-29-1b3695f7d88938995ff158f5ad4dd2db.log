@@ -1,0 +1,45 @@
+2022-07-29T19:16:10+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in /home/un462850/spadokstudio.com/www/wp-content/plugins/woocommerce/templates/checkout/thankyou.php:50
+Stack trace:
+#0 /home/un462850/spadokstudio.com/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/un462850/spadokstudio.com/www/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(276): wc_get_template('checkout/thanky...', Array)
+#2 /home/un462850/spadokstudio.com/www/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(1318)
+#3 /home/un462850/spadokstudio.com/www/wp-content/themes/Divi/includes/builder/module/woocommerce/CheckoutPaymentInfo.php(606): WC_Shortcode_Checkout::output(Array)
+#4 /home/un462850/spadokstudio.com/www/wp-content/themes/Divi/includes/builder/module/woocommerce/CheckoutPaymentInfo.php(663): ET_Builder_Module_Woocommerce_Checkout_Payment_Info::get_checkout_payment_info(Array)
+#5 / у /home/un462850/spadokstudio.com/www/wp-content/plugins/woocommerce/templates/checkout/thankyou.php доступно 50
+
+2022-07-29T20:34:44+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/un462850/spadokstudio.com/www/wp-content/plugins/nova-poshta-ttn/classes/Checkout.php:407
+Stack trace:
+#0 /home/un462850/spadokstudio.com/www/wp-content/plugins/nova-poshta-ttn/classes/Checkout.php(140): plugins\NovaPoshta\classes\Checkout->addNovaPoshtaFields(Array, 'shipping')
+#1 /home/un462850/spadokstudio.com/www/wp-includes/class-wp-hook.php(309): plugins\NovaPoshta\classes\Checkout->addNovaPoshtaShippingFields(Array)
+#2 /home/un462850/spadokstudio.com/www/wp-includes/plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#3 /home/un462850/spadokstudio.com/www/wp-content/plugins/woocommerce/includes/class-wc-countries.php(1616): apply_filters('woocommerce_shi...', Array, 'UA')
+#4 /home/un462850/spadokstudio.com/www/wp-content/plugins/woo-checkout-field-editor-pro/includes/utils/class-thwcfd-utils.php(147): WC_Countries->get_address_fields('UA', 'shipping_')
+#5 /home/un462850/spadokstudio.com/www/wp-content/plugins/woo-checkout-field-editor-p у /home/un462850/spadokstudio.com/www/wp-content/plugins/nova-poshta-ttn/classes/Checkout.php доступно 407
+
+2022-07-29T20:34:52+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/un462850/spadokstudio.com/www/wp-content/plugins/nova-poshta-ttn/classes/Checkout.php:407
+Stack trace:
+#0 /home/un462850/spadokstudio.com/www/wp-content/plugins/nova-poshta-ttn/classes/Checkout.php(140): plugins\NovaPoshta\classes\Checkout->addNovaPoshtaFields(Array, 'shipping')
+#1 /home/un462850/spadokstudio.com/www/wp-includes/class-wp-hook.php(309): plugins\NovaPoshta\classes\Checkout->addNovaPoshtaShippingFields(Array)
+#2 /home/un462850/spadokstudio.com/www/wp-includes/plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#3 /home/un462850/spadokstudio.com/www/wp-content/plugins/woocommerce/includes/class-wc-countries.php(1616): apply_filters('woocommerce_shi...', Array, 'UA')
+#4 /home/un462850/spadokstudio.com/www/wp-content/plugins/woo-checkout-field-editor-pro/includes/utils/class-thwcfd-utils.php(147): WC_Countries->get_address_fields('UA', 'shipping_')
+#5 /home/un462850/spadokstudio.com/www/wp-content/plugins/woo-checkout-field-editor-p у /home/un462850/spadokstudio.com/www/wp-content/plugins/nova-poshta-ttn/classes/Checkout.php доступно 407
+
+2022-07-29T20:34:56+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/un462850/spadokstudio.com/www/wp-content/plugins/nova-poshta-ttn/classes/Checkout.php:407
+Stack trace:
+#0 /home/un462850/spadokstudio.com/www/wp-content/plugins/nova-poshta-ttn/classes/Checkout.php(130): plugins\NovaPoshta\classes\Checkout->addNovaPoshtaFields(Array, 'billing')
+#1 /home/un462850/spadokstudio.com/www/wp-includes/class-wp-hook.php(309): plugins\NovaPoshta\classes\Checkout->addNovaPoshtaBillingFields(Array)
+#2 /home/un462850/spadokstudio.com/www/wp-includes/plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#3 /home/un462850/spadokstudio.com/www/wp-content/plugins/woocommerce/includes/class-wc-countries.php(1616): apply_filters('woocommerce_bil...', Array, 'UA')
+#4 /home/un462850/spadokstudio.com/www/wp-content/plugins/woo-checkout-field-editor-pro/includes/utils/class-thwcfd-utils.php(147): WC_Countries->get_address_fields('UA', 'billing_')
+#5 /home/un462850/spadokstudio.com/www/wp-content/plugins/woo-checkout-field-editor-pro/ у /home/un462850/spadokstudio.com/www/wp-content/plugins/nova-poshta-ttn/classes/Checkout.php доступно 407
+
+2022-07-29T20:36:18+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/un462850/spadokstudio.com/www/wp-content/plugins/nova-poshta-ttn/classes/Checkout.php:407
+Stack trace:
+#0 /home/un462850/spadokstudio.com/www/wp-content/plugins/nova-poshta-ttn/classes/Checkout.php(130): plugins\NovaPoshta\classes\Checkout->addNovaPoshtaFields(Array, 'billing')
+#1 /home/un462850/spadokstudio.com/www/wp-includes/class-wp-hook.php(309): plugins\NovaPoshta\classes\Checkout->addNovaPoshtaBillingFields(Array)
+#2 /home/un462850/spadokstudio.com/www/wp-includes/plugin.php(191): WP_Hook->apply_filters(Array, Array)
+#3 /home/un462850/spadokstudio.com/www/wp-content/plugins/woocommerce/includes/class-wc-countries.php(1616): apply_filters('woocommerce_bil...', Array, 'UA')
+#4 /home/un462850/spadokstudio.com/www/wp-content/plugins/woo-checkout-field-editor-pro/includes/utils/class-thwcfd-utils.php(147): WC_Countries->get_address_fields('UA', 'billing_')
+#5 /home/un462850/spadokstudio.com/www/wp-content/plugins/woo-checkout-field-editor-pro/ у /home/un462850/spadokstudio.com/www/wp-content/plugins/nova-poshta-ttn/classes/Checkout.php доступно 407
+

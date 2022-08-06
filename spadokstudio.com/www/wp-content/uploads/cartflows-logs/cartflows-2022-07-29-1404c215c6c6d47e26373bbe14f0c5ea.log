@@ -1,0 +1,283 @@
+2022-07-29T13:12:49+00:00 INFO ==== Start ====
+Flow-1240 Session Set : 1240_f0c02d07c07764acc1a28b28a0c610b9
+ Flow Info: {"flow_id":"1240","steps":[{"id":1242,"title":"Checkout (Woo)","type":"checkout"},{"id":1243,"title":"Thank You (Woo)","type":"thankyou"}]}
+ Current Step-checkout
+==== End ====
+
+2022-07-29T13:12:49+00:00 INFO Cartflows_Pro_Analytics_Tracking::save_conversion : Entering 
+2022-07-29T13:12:49+00:00 INFO 
+==== Log Start ====
+
+2022-07-29T13:12:49+00:00 INFO Step cookie data : 
+Array
+(
+)
+
+
+2022-07-29T13:12:49+00:00 INFO 
+==== Log End ====
+
+2022-07-29T13:12:49+00:00 INFO Cartflows_Pro_Analytics_Tracking::save_conversion : Exit 
+2022-07-29T13:12:50+00:00 INFO ==== Start ====
+Flow-1240 Session Set : 1240_f0c02d07c07764acc1a28b28a0c610b9
+ Flow Info: {"flow_id":"1240","steps":[{"id":1242,"title":"Checkout (Woo)","type":"checkout"},{"id":1243,"title":"Thank You (Woo)","type":"thankyou"}]}
+ Current Step-checkout
+==== End ====
+
+2022-07-29T13:13:09+00:00 INFO ==== Start ====
+Flow-1264 Session Set : 1264_ea3756231ba9eb0dad7784ccdad15704
+ Flow Info: {"flow_id":"1264","steps":[{"id":1265,"title":"Landing Page","type":"landing"},{"id":1267,"title":"Checkout Page","type":"checkout"},{"id":1270,"title":"Thank You Page","type":"thankyou"}]}
+ Current Step-checkout
+==== End ====
+
+2022-07-29T13:13:09+00:00 INFO Cartflows_Pro_Analytics_Tracking::save_conversion : Entering 
+2022-07-29T13:13:09+00:00 INFO 
+==== Log Start ====
+
+2022-07-29T13:13:09+00:00 INFO Step cookie data : 
+Array
+(
+)
+
+
+2022-07-29T13:13:09+00:00 INFO 
+==== Log End ====
+
+2022-07-29T13:13:09+00:00 INFO Cartflows_Pro_Analytics_Tracking::save_conversion : Exit 
+2022-07-29T13:13:11+00:00 INFO ==== Start ====
+Flow-1264 Session Set : 1264_ea3756231ba9eb0dad7784ccdad15704
+ Flow Info: {"flow_id":"1264","steps":[{"id":1265,"title":"Landing Page","type":"landing"},{"id":1267,"title":"Checkout Page","type":"checkout"},{"id":1270,"title":"Thank You Page","type":"thankyou"}]}
+ Current Step-checkout
+==== End ====
+
+2022-07-29T13:13:11+00:00 INFO ==== Start ====
+Flow-1264 Session Set : 1264_ea3756231ba9eb0dad7784ccdad15704
+ Flow Info: {"flow_id":"1264","steps":[{"id":1265,"title":"Landing Page","type":"landing"},{"id":1267,"title":"Checkout Page","type":"checkout"},{"id":1270,"title":"Thank You Page","type":"thankyou"}]}
+ Current Step-checkout
+==== End ====
+
+2022-07-29T13:13:37+00:00 INFO ==== Start ====
+Flow-1264 Session Set : 1264_f1b5afd553b2a96c918484114d4e738f
+ Flow Info: {"flow_id":"1264","steps":[{"id":1265,"title":"Landing Page","type":"landing"},{"id":1267,"title":"Checkout Page","type":"checkout"},{"id":1270,"title":"Thank You Page","type":"thankyou"}]}
+ Current Step-checkout
+==== End ====
+
+2022-07-29T13:13:37+00:00 INFO Cartflows_Pro_Analytics_Tracking::save_conversion : Entering 
+2022-07-29T13:13:37+00:00 INFO 
+==== Log Start ====
+
+2022-07-29T13:13:37+00:00 INFO Step cookie data : 
+Array
+(
+)
+
+
+2022-07-29T13:13:37+00:00 INFO 
+==== Log End ====
+
+2022-07-29T13:13:37+00:00 INFO Cartflows_Pro_Analytics_Tracking::save_conversion : Exit 
+2022-07-29T13:13:39+00:00 INFO ==== Start ====
+Flow-1264 Session Set : 1264_f1b5afd553b2a96c918484114d4e738f
+ Flow Info: {"flow_id":"1264","steps":[{"id":1265,"title":"Landing Page","type":"landing"},{"id":1267,"title":"Checkout Page","type":"checkout"},{"id":1270,"title":"Thank You Page","type":"thankyou"}]}
+ Current Step-checkout
+==== End ====
+
+2022-07-29T13:13:39+00:00 INFO ==== Start ====
+Flow-1264 Session Set : 1264_f1b5afd553b2a96c918484114d4e738f
+ Flow Info: {"flow_id":"1264","steps":[{"id":1265,"title":"Landing Page","type":"landing"},{"id":1267,"title":"Checkout Page","type":"checkout"},{"id":1270,"title":"Thank You Page","type":"thankyou"}]}
+ Current Step-checkout
+==== End ====
+
+2022-07-29T13:13:46+00:00 INFO  woocommerce_checkout_order_processed 
+2022-07-29T13:13:46+00:00 INFO  woocommerce_pre_payment_complete 
+2022-07-29T13:13:46+00:00 INFO Order-1293 Upsell not exists
+2022-07-29T13:13:46+00:00 INFO Start-Cartflows_Frontend::redirect_to_thankyou_page
+2022-07-29T13:13:46+00:00 INFO Only for thank you page
+2022-07-29T13:13:46+00:00 INFO Checkout ID : 1267
+2022-07-29T13:13:46+00:00 INFO End-Cartflows_Frontend::redirect_to_thankyou_page
+2022-07-29T13:13:47+00:00 INFO ==== Start ====
+Flow-1264 Session Destroyed : 1264_f1b5afd553b2a96c918484114d4e738f
+ Current Step-thankyou
+==== Start ====
+
+2022-07-29T13:13:47+00:00 INFO Cartflows_Pro_Analytics_Tracking::save_conversion : Entering 
+2022-07-29T13:13:47+00:00 INFO 
+==== Log Start ====
+
+2022-07-29T13:13:47+00:00 INFO Step cookie data : 
+Array
+(
+    [1267] => Array
+        (
+            [control_step_id] => 1267
+            [current_step_id] => 1267
+            [step_type] => checkout
+            [visit_id] => 3
+            [conversion] => no
+        )
+
+)
+
+
+2022-07-29T13:13:47+00:00 INFO Previous step cookie data : 
+Array
+(
+    [control_step_id] => 1267
+    [current_step_id] => 1267
+    [step_type] => checkout
+    [visit_id] => 3
+    [conversion] => no
+)
+
+Conversion Saved: 1
+
+2022-07-29T13:13:47+00:00 INFO Conversion Stored : 
+Array
+(
+    [1267] => Array
+        (
+            [control_step_id] => 1267
+            [current_step_id] => 1267
+            [step_type] => checkout
+            [visit_id] => 3
+            [conversion] => yes
+        )
+
+)
+
+
+2022-07-29T13:13:47+00:00 INFO 
+==== Log End ====
+
+2022-07-29T13:13:47+00:00 INFO Cartflows_Pro_Analytics_Tracking::save_conversion : Exit 
+2022-07-29T13:14:06+00:00 INFO  woocommerce_checkout_order_processed 
+2022-07-29T13:14:06+00:00 INFO  woocommerce_pre_payment_complete 
+2022-07-29T13:14:06+00:00 INFO Order-1294 Upsell not exists
+2022-07-29T13:14:07+00:00 INFO Start-Cartflows_Frontend::redirect_to_thankyou_page
+2022-07-29T13:14:07+00:00 INFO Only for thank you page
+2022-07-29T13:14:07+00:00 INFO Checkout ID : 1267
+2022-07-29T13:14:07+00:00 INFO End-Cartflows_Frontend::redirect_to_thankyou_page
+2022-07-29T13:14:08+00:00 INFO ==== Start ====
+Flow-1264 Session Destroyed : 1264_ea3756231ba9eb0dad7784ccdad15704
+ Current Step-thankyou
+==== Start ====
+
+2022-07-29T13:14:08+00:00 INFO Cartflows_Pro_Analytics_Tracking::save_conversion : Entering 
+2022-07-29T13:14:08+00:00 INFO 
+==== Log Start ====
+
+2022-07-29T13:14:08+00:00 INFO Step cookie data : 
+Array
+(
+    [1267] => Array
+        (
+            [control_step_id] => 1267
+            [current_step_id] => 1267
+            [step_type] => checkout
+            [visit_id] => 2
+            [conversion] => no
+        )
+
+)
+
+
+2022-07-29T13:14:08+00:00 INFO Previous step cookie data : 
+Array
+(
+    [control_step_id] => 1267
+    [current_step_id] => 1267
+    [step_type] => checkout
+    [visit_id] => 2
+    [conversion] => no
+)
+
+Conversion Saved: 1
+
+2022-07-29T13:14:08+00:00 INFO Conversion Stored : 
+Array
+(
+    [1267] => Array
+        (
+            [control_step_id] => 1267
+            [current_step_id] => 1267
+            [step_type] => checkout
+            [visit_id] => 2
+            [conversion] => yes
+        )
+
+)
+
+
+2022-07-29T13:14:08+00:00 INFO 
+==== Log End ====
+
+2022-07-29T13:14:08+00:00 INFO Cartflows_Pro_Analytics_Tracking::save_conversion : Exit 
+2022-07-29T13:15:49+00:00 INFO ==== Start ====
+Flow-1240 Session Set : 1240_abfc99f05c6b3085ff22538eb73d6f37
+ Flow Info: {"flow_id":"1240","steps":[{"id":1242,"title":"Checkout (Woo)","type":"checkout"},{"id":1243,"title":"Thank You (Woo)","type":"thankyou"}]}
+ Current Step-checkout
+==== End ====
+
+2022-07-29T13:15:51+00:00 INFO ==== Start ====
+Flow-1240 Session Set : 1240_abfc99f05c6b3085ff22538eb73d6f37
+ Flow Info: {"flow_id":"1240","steps":[{"id":1242,"title":"Checkout (Woo)","type":"checkout"},{"id":1243,"title":"Thank You (Woo)","type":"thankyou"}]}
+ Current Step-checkout
+==== End ====
+
+2022-07-29T13:15:51+00:00 INFO ==== Start ====
+Flow-1240 Session Set : 1240_abfc99f05c6b3085ff22538eb73d6f37
+ Flow Info: {"flow_id":"1240","steps":[{"id":1242,"title":"Checkout (Woo)","type":"checkout"},{"id":1243,"title":"Thank You (Woo)","type":"thankyou"}]}
+ Current Step-checkout
+==== End ====
+
+2022-07-29T13:15:58+00:00 INFO ==== Start ====
+Flow-1240 Session Destroyed : 1240_abfc99f05c6b3085ff22538eb73d6f37
+ Current Step-thankyou
+==== Start ====
+
+2022-07-29T13:16:15+00:00 INFO Cartflows_Pro_Analytics_Tracking::save_conversion : Entering 
+2022-07-29T13:16:15+00:00 INFO 
+==== Log Start ====
+
+2022-07-29T13:16:15+00:00 INFO Step cookie data : 
+Array
+(
+    [1270] => Array
+        (
+            [control_step_id] => 1270
+            [current_step_id] => 1270
+            [step_type] => thankyou
+            [visit_id] => 4
+            [conversion] => no
+        )
+
+)
+
+
+2022-07-29T13:16:15+00:00 INFO 
+==== Log End ====
+
+2022-07-29T13:16:15+00:00 INFO Cartflows_Pro_Analytics_Tracking::save_conversion : Exit 
+2022-07-29T13:16:28+00:00 INFO Cartflows_Pro_Analytics_Tracking::save_conversion : Entering 
+2022-07-29T13:16:28+00:00 INFO 
+==== Log Start ====
+
+2022-07-29T13:16:28+00:00 INFO Step cookie data : 
+Array
+(
+    [1270] => Array
+        (
+            [control_step_id] => 1270
+            [current_step_id] => 1270
+            [step_type] => thankyou
+            [visit_id] => 6
+            [conversion] => no
+        )
+
+)
+
+
+2022-07-29T13:16:28+00:00 INFO 
+==== Log End ====
+
+2022-07-29T13:16:28+00:00 INFO Cartflows_Pro_Analytics_Tracking::save_conversion : Exit 

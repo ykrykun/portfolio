@@ -1,0 +1,12 @@
+{
+  "builder.css": "/styles/backend-style.min.css",
+  "builder.js": "/scripts/builder-bundle.min.js",
+  "frontend.css": "/styles/backend-style.min.css",
+  "frontend.js": "/scripts/frontend-bundle.min.js",
+  "media/divi_shop_builder.eot": "/media/divi_shop_builder.eot",
+  "media/divi_shop_builder.svg": "/media/divi_shop_builder.svg",
+  "media/divi_shop_builder.ttf": "/media/divi_shop_builder.ttf",
+  "media/divi_shop_builder.woff": "/media/divi_shop_builder.woff",
+  "media/help.svg": "/media/help.svg",
+  "media/settings.svg": "/media/settings.svg"
+}

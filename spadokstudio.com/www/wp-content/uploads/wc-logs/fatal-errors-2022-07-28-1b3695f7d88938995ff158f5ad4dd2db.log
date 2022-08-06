@@ -1,0 +1,20 @@
+2022-07-28T16:56:28+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /home/un462850/spadokstudio.com/www/wp-content/themes/Divi/functions.php:8830
+Stack trace:
+#0 /home/un462850/spadokstudio.com/www/wp-includes/shortcodes.php(356): my_order_id('', '', 'my_order_id')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/un462850/spadokstudio.com/www/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(my_ord...', 'do_shortcode_ta...', '<h2>\xD0\xB4\xD1\x8F\xD0\xBA\xD1\x83\xD1\x94\xD0...')
+#3 /home/un462850/spadokstudio.com/www/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(3012): do_shortcode('<h2>\xD0\xB4\xD1\x8F\xD0\xBA\xD1\x83\xD1\x94\xD0...')
+#4 /home/un462850/spadokstudio.com/www/wp-includes/shortcodes.php(356): ET_Builder_Element->_render(Array, '<h2>\xD0\xB4\xD1\x8F\xD0\xBA\xD1\x83\xD1\x94\xD0...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /home/un462850/spadokstudio.com/www/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(my_ord.. у /home/un462850/spadokstudio.com/www/wp-content/themes/Divi/functions.php доступно 8830
+
+2022-07-28T16:57:54+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /home/un462850/spadokstudio.com/www/wp-content/themes/Divi/functions.php:8830
+Stack trace:
+#0 /home/un462850/spadokstudio.com/www/wp-includes/shortcodes.php(356): my_order_id('', '', 'my_order_id')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/un462850/spadokstudio.com/www/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(my_ord...', 'do_shortcode_ta...', '<h2>\xD0\xB4\xD1\x8F\xD0\xBA\xD1\x83\xD1\x94\xD0...')
+#3 /home/un462850/spadokstudio.com/www/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(3012): do_shortcode('<h2>\xD0\xB4\xD1\x8F\xD0\xBA\xD1\x83\xD1\x94\xD0...')
+#4 /home/un462850/spadokstudio.com/www/wp-includes/shortcodes.php(356): ET_Builder_Element->_render(Array, '<h2>\xD0\xB4\xD1\x8F\xD0\xBA\xD1\x83\xD1\x94\xD0...', 'et_pb_text')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /home/un462850/spadokstudio.com/www/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(my_ord.. у /home/un462850/spadokstudio.com/www/wp-content/themes/Divi/functions.php доступно 8830
+

@@ -1,0 +1,120 @@
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: PhraseApp (phraseapp.com)\n"
+
+#/country-code-selector/public/class-country-code-selector-public.php
+msgid "Invalid number"
+msgstr ""
+
+msgid "Invalid country code"
+msgstr ""
+
+msgid "Too short"
+msgstr ""
+
+msgid "Too long"
+msgstr ""
+
+msgid "Your phone field has an invalid input"
+msgstr ""
+
+#country-code-selector/admin/class-country-code-selector-admin.php
+msgid "Country Code Selector"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+#country-code-selector/admin/partials/country-code-selector-admin-display.php
+msgid "Country Code Selector Settings"
+msgstr ""
+
+msgid "Enable On"
+msgstr ""
+
+msgid "WooCommerce"
+msgstr ""
+
+msgid "WooCommerce Checkout Page"
+msgstr ""
+
+msgid "(WooCommerce plugin is not active.)"
+msgstr ""
+
+msgid "Shopp"
+msgstr ""
+
+msgid "Shopp Checkout Page"
+msgstr ""
+
+msgid "(Shopp plugin is not active.)"
+msgstr ""
+
+msgid "Gravity Forms"
+msgstr ""
+
+msgid "(Gravity Forms plugin is not active.)"
+msgstr ""
+
+msgid "Contact Form 7"
+msgstr ""
+
+msgid "(Contact Form 7 plugin is not active.)"
+msgstr ""
+
+msgid "Gravity Forms Settings"
+msgstr ""
+
+msgid "Select a form"
+msgstr ""
+
+msgid "Please create a form first."
+msgstr ""
+
+msgid "Phone field ID"
+msgstr ""
+
+msgid "Field ID"
+msgstr ""
+
+msgid "Note: Gravity Forms plugin is not active."
+msgstr ""
+
+msgid "Contact Form 7 Settings"
+msgstr ""
+
+msgid "Select a form"
+msgstr ""
+
+msgid "Please create a form first."
+msgstr ""
+
+msgid "Phone field ID"
+msgstr ""
+
+msgid "Note: Contact Form 7 plugin is not active."
+msgstr ""
+
+msgid "Country Settings"
+msgstr ""
+
+msgid "Select countries"
+msgstr ""
+
+msgid "Select default country"
+msgstr ""
+
+msgid "Select a country"
+msgstr ""
+
+#msgid "pluralized_key"
+#msgid_plural ""
+#msgstr[0] ""
+#msgstr[1] ""
+
+#, fuzzy
+#msgid "unverified_key"
+#msgstr ""

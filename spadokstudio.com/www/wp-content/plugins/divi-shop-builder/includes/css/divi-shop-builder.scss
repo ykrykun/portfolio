@@ -1,0 +1,53 @@
+/*! @license
+See the license.txt file for licensing information for third-party code that may be used in this file.
+Relative to the styles/ directory, the license.txt file is located at ../license.txt.
+This file (and/or the corresponding source SCSS and/or CSS file) has been modified by Anna Kurowska, Jonathan Hall, and/or others.
+This file (and/or the corresponding source SCSS and/or CSS file) was last modified 2020-12-15
+*/
+
+
+ul.products {
+	li.product {
+		.wc-new-badge {
+			padding:.2em .5em;
+			display: block;
+			border-radius:3px;
+			text-align: center;
+		}
+		.stock {
+			display: block;
+			padding-top:.5em;
+			&.out-of-stock {
+				color: #eb4649;
+			}
+			&.in-stock {
+				color: #85ad74;
+			}
+		}
+		.categories {
+			display: block;
+			padding-top:.5em;
+			a {
+				display: inline;
+			}
+		}
+		.quantity {
+			display: inline-block;
+			width: auto;
+			.qty {
+				width: 65px;
+			}
+		}
+	}
+}
+
+.ags-divi-wc-layout-grid {
+	 .ags-divi-wc-product-excerpt {
+		 display: block;
+	}
+}
+
+.et_pb_module[class*="ags_woo_account_"] .woocommerce-MyAccount-content {
+    float: none;
+    width: 100%;
+}

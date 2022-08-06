@@ -1,0 +1,479 @@
+/*! @license
+See the license.txt file for licensing information for third-party code that may be used in this file.
+Relative to the styles/ directory, the license.txt file is located at ../license.txt.
+This file (or the corresponding source CSS file) has been modified by Jonathan Hall, Anna Kurowska, Ahamed Arshad and/or others.
+This file (or the corresponding source CSS file) was last modified 2021-02-03
+*/
+.ags-divi-wc-layout-list {
+
+    .product {
+        width  : 100% !important;
+        margin : 0 0 2% !important;
+
+        &:after {
+             content : "";
+             clear   : both;
+             display : table;
+         }
+
+        .ags-divi-wc-list-column-1,
+        .ags-divi-wc-list-column-2,
+        .ags-divi-wc-list-column-3 {
+            margin-bottom : 1em;
+            display       : block;
+            width         : 100%;
+            float         : left;
+        }
+
+        .woocommerce-loop-product__title {
+            padding     : 0 0 1em !important;
+            font-size   : 20px !important; /* jh-todo add to defaults */
+            line-height : 1.2em; /* jh-todo add to defaults */
+        }
+
+        .star-rating {
+            margin : 0 0 1em !important;
+        }
+
+        span.onsale, span.wc-new-badge {
+            margin-bottom : 10px !important;
+        }
+
+        .ags-divi-wc-new-badge,
+        .ags-divi-wc-sale-badge {
+            & > span {
+                  display : block;
+
+            &:last-child {
+                 margin-bottom : 0 !important;
+             }
+            }
+        }
+
+        .ags-divi-wc-list-column-2 {
+            .ags-divi-wc-new-badge,
+            .ags-divi-wc-sale-badge {
+                padding-bottom : 15px;
+            }
+        }
+    }
+}
+
+.et_pb_column_4_4 .ags-divi-wc-layout-list {
+    .product {
+        @media (min-width : 767px) {
+
+            .ags-divi-wc-list-column-1,
+            .ags-divi-wc-list-column-2 {
+                padding-right : 3%;
+            }
+
+            .ags-divi-wc-list-column-1 {
+                width : 35%;
+            }
+
+            .ags-divi-wc-list-column-2,
+            .ags-divi-wc-list-column-3 {
+                width : 65%;
+            }
+        }
+
+        @media (min-width : 980px) {
+            .ags-divi-wc-list-column-1 {
+                width : 25%;
+            }
+
+            .ags-divi-wc-list-column-2 {
+                width         : 50%;
+                padding-right : 3%;
+            }
+
+            .ags-divi-wc-list-column-3 {
+                width : 25%;
+            }
+        }
+    }
+
+    &.ags-divi-wc-hide-thumbnail .product {
+        @media (min-width : 767px) {
+
+            .ags-divi-wc-list-column-2 {
+                width : 65%;
+            }
+
+            .ags-divi-wc-list-column-3 {
+                width : 35%;
+            }
+        }
+
+        @media (min-width : 980px) {
+            .ags-divi-wc-list-column-2 {
+                width : 75%;
+            }
+
+            .ags-divi-wc-list-column-3 {
+                width : 25%;
+            }
+        }
+    }
+}
+
+.et_pb_column_3_4,
+.et_pb_column_3_5,
+.et_pb_column_et_pb_row_1-4_3-4,
+.et_pb_column_2_3 {
+    .ags-divi-wc-layout-list .product {
+        @media (min-width : 767px) {
+
+            .ags-divi-wc-list-column-1,
+            .ags-divi-wc-list-column-2 {
+                padding-right : 3%;
+            }
+
+            .ags-divi-wc-list-column-1 {
+                width : 35%;
+            }
+
+            .ags-divi-wc-list-column-2,
+            .ags-divi-wc-list-column-3 {
+                width : 65%;
+            }
+        }
+    }
+
+    &.ags-divi-wc-layout-list.ags-divi-wc-hide-thumbnail .product {
+        @media (min-width : 767px) {
+            .ags-divi-wc-list-column-2,
+            .ags-divi-wc-list-column-3 {
+                width : 100%;
+            }
+        }
+
+        @media (min-width : 980px) {
+            .ags-divi-wc-list-column-2 {
+                width : 70%;
+            }
+
+            .ags-divi-wc-list-column-3 {
+                width : 30%;
+            }
+        }
+    }
+}
+
+.et_pb_column_3_4,
+.et_pb_column_3_5,
+.et_pb_column_et_pb_row_1-4_3-4,
+.et_pb_column_2_3 {
+    .ags-divi-wc-layout-list {
+        .product {
+            @media (min-width : 767px) {
+                .ags-divi-wc-list-column-1,
+                .ags-divi-wc-list-column-2 {
+                    padding-right : 3%;
+                }
+
+                .ags-divi-wc-list-column-1 {
+                    width : 35%;
+                }
+
+                .ags-divi-wc-list-column-2,
+                .ags-divi-wc-list-column-3 {
+                    width : 65%;
+                }
+            }
+        }
+
+        &.ags-divi-wc-hide-thumbnail {
+            .product {
+                @media (min-width : 767px) {
+                    .ags-divi-wc-list-column-2,
+                    .ags-divi-wc-list-column-3 {
+                        width : 100%;
+                    }
+                }
+
+                @media (min-width : 980px) {
+                    .ags-divi-wc-list-column-2 {
+                        width : 70%;
+                    }
+
+                    .ags-divi-wc-list-column-3 {
+                        width : 30%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.et-fb-app-frame {
+	div.ags_woo_shop_plus {
+		/* divi-shop-builder\includes\modules\WooCartList\style.scss */
+		button[data-icon]:not([data-icon='']),
+		.button[data-icon]:not([data-icon='']),
+		button.button[data-icon]:not([data-icon='']) {
+
+			&:after,
+			&:before {
+				/* position: relative!important; */
+			}
+		}
+
+		/* divi-shop-builder\includes\modules\WooCartList\style.scss */
+		button,
+		.button,
+		button.button {
+			/* padding-right: 1em; */
+		}
+	}
+}
+
+div.ags_woo_shop_plus .product {
+
+
+}
+
+div.ags_woo_shop_plus {
+
+	/* divi-shop-builder\includes\modules\WooCartList\style.scss */
+    button,
+    .button,
+    button.button {
+
+        &:after,
+        &:before {
+			/* divi-shop-builder\includes\modules\WooCartList\style.scss */
+			content: attr(data-icon);
+        }
+
+		/*
+        &:disabled[disabled],
+        &.disabled,
+        &[disabled] {
+            padding: .3em 1em;
+        }
+		*/
+
+
+    }
+
+  /* Divi\style.dev.css */
+  ul.products li.product a.woocommerce-LoopProduct-link img, ul.products li.product a.woocommerce-LoopProduct-link img {
+    margin: 0 !important;
+	  border: 0 solid #000;
+
+  }
+
+  .woocommerce nav.woocommerce-pagination ul {
+      border-right: solid;
+  }
+
+  .woocommerce ul.products li.product .onsale {
+      border-style: solid;
+      writing-mode: inherit;
+  }
+
+    .woocommerce-pagination .page-numbers li {
+	  border: 0 solid #000;
+  }
+
+  .quantity input.qty {
+	  border: 0 solid #000 !important;
+  }
+
+  .woocommerce-LoopProduct-link {
+    display: block;
+    position: relative;
+  }
+
+  .woocommerce-ordering .orderby {
+	  border: 0 solid #000;
+  }
+
+  /* Divi\style.dev.css */
+  .wc-new-badge {
+    background: #260065;
+    /*border-radius: 3px;*/
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: inherit !important;
+    margin: 0 !important;
+    min-height: 0 !important;
+    min-width: 0 !important;
+    padding: 6px 18px;
+    text-shadow: none;
+	border: 0 solid #000;
+  }
+
+  .products .product span.onsale {
+    position: static;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+  }
+
+
+  .products .product {
+	  border: 0 solid #000;
+  }
+
+    .ags-divi-wc-new-badge,
+    .ags-divi-wc-sale-badge {
+        z-index: 2;
+        & > span {
+              display : block;
+              margin-bottom: 10px;
+            &:last-child {
+                 margin-bottom : 0 !important;
+             }
+        }
+    }
+
+  .ags-divi-wc-new-badge-no_overlay {
+    .wc-new-badge {
+      display: block;
+    }
+  }
+
+  .ags-divi-wc-sale-badge-no_overlay {
+    .products .product span.onsale {
+      display: block;
+    }
+  }
+
+  /* woocommerce-carousel-for-divi\includes\modules\WoocommerceCarousel\style.css */
+  .ags-divi-wc-new-badge-overlay_tl {
+
+    .ags-divi-wc-new-badge {
+      position: absolute;
+      left: 1em !important;
+      top: 1em !important;
+    }
+
+  }
+  .ags-divi-wc-sale-badge-overlay_tl {
+
+    .ags-divi-wc-sale-badge {
+      position: absolute;
+      left: 1em !important;
+      top: 1em !important;
+    }
+
+  }
+  .ags-divi-wc-new-badge-overlay_tr {
+
+    .ags-divi-wc-new-badge {
+      position: absolute;
+      left: auto !important;
+      right: 1em !important;
+      top: 1em !important;
+    }
+
+  }
+  .ags-divi-wc-sale-badge-overlay_tr {
+
+    .ags-divi-wc-sale-badge {
+      position: absolute;
+      left: auto !important;
+      right: 1em !important;
+      top: 1em !important;
+    }
+
+  }
+
+  .ags-divi-wc-new-badge-overlay_bl {
+
+    .ags-divi-wc-new-badge {
+      position: absolute;
+      left: 1em !important;
+      top: auto !important;
+      bottom: 1em;
+    }
+
+  }
+   .ags-divi-wc-sale-badge-overlay_bl {
+
+    .ags-divi-wc-sale-badge {
+      position: absolute;
+      left: 1em !important;
+      top: auto !important;
+      bottom: 1em;
+    }
+
+  }
+  .ags-divi-wc-new-badge-overlay_br {
+
+    .ags-divi-wc-new-badge {
+      position: absolute;
+      left: auto !important;
+      right: 1em !important;
+      top: auto !important;
+      bottom: 1em;
+    }
+
+  }
+  .ags-divi-wc-sale-badge-overlay_br {
+
+    .ags-divi-wc-sale-badge {
+      position: absolute;
+      left: auto !important;
+      right: 1em !important;
+      top: auto !important;
+      bottom: 1em;
+    }
+
+  }
+
+  ul.products li.product .added_to_cart {
+    border-style: solid;
+    transition: all .2s;
+
+    &::after,
+    &::before {
+        transition: all .2s;
+    }
+  }
+
+  .ags_woo_shop_plus_multiview {
+
+    margin-bottom: 10px;
+
+    button {
+        background: transparent;
+        border: 2px solid #ddd;
+        line-height: 1;
+        cursor: pointer;
+
+        &.active {
+            background: #ededed;
+        }
+    }
+
+    .grid-view::before,
+    .list-view::before{
+        font-family: ETmodules;
+        font-size: 20px;
+        line-height: 1em;
+    }
+
+    .grid-view::before{
+        content: "\e08c";
+    }
+
+    .list-view::before{
+        content: "\64";
+    }
+
+    .grid-view::after,
+    .list-view::after{
+        display: none !important;
+    }
+
+  }
+
+}
+/*# sourceMappingURL=style.css.map */

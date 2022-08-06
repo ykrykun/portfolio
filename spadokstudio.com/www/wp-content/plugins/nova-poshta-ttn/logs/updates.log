@@ -1,0 +1,8 @@
+[2022-07-29 20:30:27] db_update.INFO: Areas were successfully updated, affected 25 rows, deleted 0 rows [] []
+[2022-07-29 20:30:28] db_update.INFO: Cities were successfully updated, affected 7850 rows, deleted 0 rows [] []
+[2022-07-29 20:30:54] db_update.INFO: Warehouses were successfully updated, affected 20387 rows, deleted 0 rows [] []
+[2022-07-29 20:31:15] db_update.INFO: Poshtomats were successfully updated, affected 13521 rows, deleted 0 rows [] []
+[2022-07-29 20:31:15] db_update.INFO: Areas were successfully updated, affected 25 rows, deleted 0 rows [] []
+[2022-07-29 20:31:16] db_update.INFO: Cities were successfully updated, affected 7850 rows, deleted 0 rows [] []
+[2022-07-29 20:31:33] db_update.INFO: Warehouses were successfully updated, affected 20387 rows, deleted 0 rows [] []
+[2022-07-29 20:31:51] db_update.INFO: Poshtomats were successfully updated, affected 13521 rows, deleted 0 rows [] []

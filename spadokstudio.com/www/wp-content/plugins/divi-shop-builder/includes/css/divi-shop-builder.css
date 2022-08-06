@@ -1,0 +1,30 @@
+/*! @license
+See the license.txt file for licensing information for third-party code that may be used in this file.
+Relative to the styles/ directory, the license.txt file is located at ../license.txt.
+This file (and/or the corresponding source SCSS and/or CSS file) has been modified by Anna Kurowska, Jonathan Hall, and/or others.
+This file (and/or the corresponding source SCSS and/or CSS file) was last modified 2020-11-25
+*/
+ul.products li.product .wc-new-badge {
+  padding: .2em .5em;
+  display: block;
+  border-radius: 3px;
+  text-align: center; }
+ul.products li.product .stock {
+  display: block;
+  padding-top: .5em; }
+  ul.products li.product .stock.out-of-stock {
+    color: #eb4649; }
+  ul.products li.product .stock.in-stock {
+    color: #85ad74; }
+ul.products li.product .categories {
+  display: block;
+  padding-top: .5em; }
+  ul.products li.product .categories a {
+    display: inline; }
+ul.products li.product .quantity {
+  display: inline-block;
+  width: auto; }
+  ul.products li.product .quantity .qty {
+    width: 65px; }
+
+/*# sourceMappingURL=divi-shop-builder.css.map */

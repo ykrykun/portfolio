@@ -1,0 +1,67 @@
+/*! @license
+See the license.txt file for licensing information for third-party code that may be used in this file.
+Relative to the styles/ directory, the license.txt file is located at ../license.txt.
+This file (or the corresponding source CSS file) has been modified by Jonathan Hall, Anna Kurowska and/or others.
+This file (or the corresponding source CSS file) was last modified 2020-11-17
+*/
+
+.dswc_woocommerce_carousel {
+
+  .dswc-featured-image {
+    display: block;
+    position: relative;
+
+    img {
+      display: block;
+      margin: auto;
+      width: 100%;
+    }
+
+    .dswc_badge_overlay_tl, .dswc_badge_overlay_tr, .dswc_badge_overlay_bl, .dswc_badge_overlay_br {
+      position: absolute;
+    }
+    .dswc_badge_overlay_tl {
+      left: 0px;
+      top: 0px;
+    }
+    .dswc_badge_overlay_tr {
+      right: 0px;
+      top: 0px;
+    }
+    .dswc_badge_overlay_bl {
+      left: 0px;
+      bottom: 0px;
+    }
+    .dswc_badge_overlay_br {
+      right: 0px;
+      bottom: 0px;
+    }
+
+  }
+
+  .star-rating {
+    display: inline-block;
+    float: none;
+    font-family: ETModules;
+
+  }
+
+  .sale_badge span {
+    display: inline-block;
+    color: initial;
+  }
+
+
+}
+
+.dswc_woocommerce_carousel:not(.dswc_arrows_outside) {
+
+  .prev_icon {
+    left: 0;
+  }
+
+  .next_icon {
+    right: 0;
+  }
+
+}

@@ -1,0 +1,39 @@
+/*
+This file modified by Anna Kurowska, and/or others
+Last modified 2020-11-16
+*/
+
+#sub-accordion-section-wc_ags_archive, #sub-accordion-section-wc_ags_badge {
+  input[type=checkbox]:checked:before {
+    margin: 0px 0 0 -5px;
+  }
+
+  .customize-control-checkbox .description {
+    text-transform: none;
+    font-weight: 400;
+  }
+
+}
+
+#customize-theme-controls #accordion-panel-wc_ags .accordion-section-title {
+  background-color: #ededed;
+}
+
+#customize-control-wc_ags_archive_description {
+  background-color: #f7f7f7;
+  padding: 2.5% 3%;
+  width: 94%;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#customize-control-wc_ags_archive_description_2 {
+  padding-top:30px;
+}
+
+.ags-woo-title {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+

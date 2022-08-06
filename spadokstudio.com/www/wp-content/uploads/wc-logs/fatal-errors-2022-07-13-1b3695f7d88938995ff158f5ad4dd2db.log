@@ -1,0 +1,18 @@
+2022-07-13T14:12:06+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function my_price_html(), 1 passed in /home/un462850/spadokstudio.com/www/wp-includes/class-wp-hook.php on line 309 and exactly 2 expected in /home/un462850/spadokstudio.com/www/wp-content/themes/Divi/functions.php:8832
+Stack trace:
+#0 /home/un462850/spadokstudio.com/www/wp-includes/class-wp-hook.php(309): my_price_html('<span class="wo...')
+#1 /home/un462850/spadokstudio.com/www/wp-includes/plugin.php(191): WP_Hook->apply_filters('<span class="wo...', Array)
+#2 /home/un462850/spadokstudio.com/www/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1872): apply_filters('woocommerce_get...', '<span class="wo...', Object(WC_Product_Simple))
+#3 /home/un462850/spadokstudio.com/www/wp-content/plugins/woocommerce/templates/single-product/price.php(25): WC_Product->get_price_html()
+#4 /home/un462850/spadokstudio.com/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/un462850/...')
+#5 /home/un462850/spadokstudi у /home/un462850/spadokstudio.com/www/wp-content/themes/Divi/functions.php доступно 8832
+
+2022-07-13T14:12:10+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function my_price_html(), 1 passed in /home/un462850/spadokstudio.com/www/wp-includes/class-wp-hook.php on line 309 and exactly 2 expected in /home/un462850/spadokstudio.com/www/wp-content/themes/Divi/functions.php:8832
+Stack trace:
+#0 /home/un462850/spadokstudio.com/www/wp-includes/class-wp-hook.php(309): my_price_html('<span class="wo...')
+#1 /home/un462850/spadokstudio.com/www/wp-includes/plugin.php(191): WP_Hook->apply_filters('<span class="wo...', Array)
+#2 /home/un462850/spadokstudio.com/www/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1872): apply_filters('woocommerce_get...', '<span class="wo...', Object(WC_Product_Simple))
+#3 /home/un462850/spadokstudio.com/www/wp-content/plugins/woocommerce/templates/loop/price.php(25): WC_Product->get_price_html()
+#4 /home/un462850/spadokstudio.com/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/un462850/...')
+#5 /home/un462850/spadokstudio.com/www/ у /home/un462850/spadokstudio.com/www/wp-content/themes/Divi/functions.php доступно 8832
+

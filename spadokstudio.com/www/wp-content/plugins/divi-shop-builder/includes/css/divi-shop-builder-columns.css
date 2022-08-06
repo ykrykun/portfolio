@@ -1,0 +1,113 @@
+/*! @license
+See the license.txt file for licensing information for third-party code that may be used in this file.
+Relative to the styles/ directory, the license.txt file is located at ../license.txt.
+This file (and/or the corresponding source SCSS and/or CSS file) has been modified by Anna Kurowska, Jonathan Hall, and/or others
+This file (and/or the corresponding source SCSS and/or CSS file) was last modified 2020-11-25
+*/
+@media all and (min-width: 1024px) {
+  body[class*=woocommerce] .ags-divi-wc-layout-grid.products.columns-6 ul.products li.product {
+    width: 13.5% !important;
+    margin: 0 3.8% 2.992em 0 !important;
+    clear: none !important; }
+    body[class*=woocommerce] .ags-divi-wc-layout-grid.products.columns-6 ul.products li.product.last {
+      margin-right: 0px !important; }
+    body[class*=woocommerce] .ags-divi-wc-layout-grid.products.columns-6 ul.products li.product:nth-child(6n+1) {
+      clear: both !important; }
+  body[class*=woocommerce] .ags-divi-wc-layout-grid.products.columns-5 ul.products li.product {
+    width: 16.96% !important;
+    margin: 0 3.8% 2.992em 0 !important;
+    clear: none !important; }
+    body[class*=woocommerce] .ags-divi-wc-layout-grid.products.columns-5 ul.products li.product.last {
+      margin-right: 0px !important; }
+    body[class*=woocommerce] .ags-divi-wc-layout-grid.products.columns-5 ul.products li.product:nth-child(5n+1) {
+      clear: both !important; }
+  body[class*=woocommerce] .ags-divi-wc-layout-grid.products.columns-4 ul.products li.product {
+    width: 22.1% !important;
+    margin: 0 3.8% 2.992em 0 !important;
+    clear: none !important; }
+    body[class*=woocommerce] .ags-divi-wc-layout-grid.products.columns-4 ul.products li.product.last {
+      margin-right: 0px !important; }
+    body[class*=woocommerce] .ags-divi-wc-layout-grid.products.columns-4 ul.products li.product:nth-child(4n+1) {
+      clear: both !important; }
+  body[class*=woocommerce] .ags-divi-wc-layout-grid.products.columns-3 ul.products li.product {
+    width: 30.6% !important;
+    margin: 0 3.8% 2.992em 0 !important;
+    clear: none !important; }
+    body[class*=woocommerce] .ags-divi-wc-layout-grid.products.columns-3 ul.products li.product.last {
+      margin-right: 0px !important; }
+    body[class*=woocommerce] .ags-divi-wc-layout-grid.products.columns-3 ul.products li.product:nth-child(3n+1) {
+      clear: both !important; }
+  body[class*=woocommerce] .ags-divi-wc-layout-grid.products.columns-2 ul.products li.product {
+    width: 48% !important;
+    margin: 0 3.8% 2.992em 0 !important;
+    clear: none !important; }
+    body[class*=woocommerce] .ags-divi-wc-layout-grid.products.columns-2 ul.products li.product.last {
+      margin-right: 0px !important; }
+    body[class*=woocommerce] .ags-divi-wc-layout-grid.products.columns-2 ul.products li.product:nth-child(2n+1) {
+      clear: both !important; }
+  body[class*=woocommerce] .ags-divi-wc-layout-grid.products.columns-1 ul.products li.product {
+    width: 100% !important;
+    margin-right: 0 !important; }
+    body[class*=woocommerce] .ags-divi-wc-layout-grid.products.columns-1 ul.products li.product:nth-child(n) {
+      width: 100% !important;
+      margin-right: 0 !important; } }
+@media all and (min-width: 720px) and (max-width: 1024px) {
+  body[class*=woocommerce] .ags-divi-wc-layout-grid.product-columns-tablet-5 ul.products li.product:nth-child(n) {
+    width: 16.96% !important;
+    margin: 0 3.8% 2.992em 0 !important;
+    clear: none !important; }
+    body[class*=woocommerce] .ags-divi-wc-layout-grid.product-columns-tablet-5 ul.products li.product:nth-child(n):nth-child(5n) {
+      margin-right: 0px !important; }
+    body[class*=woocommerce] .ags-divi-wc-layout-grid.product-columns-tablet-5 ul.products li.product:nth-child(n):nth-child(5n+1) {
+      clear: both !important; }
+  body[class*=woocommerce] .ags-divi-wc-layout-grid.product-columns-tablet-4 ul.products li.product:nth-child(n) {
+    width: 22.1% !important;
+    margin: 0 3.8% 2.992em 0 !important;
+    clear: none !important; }
+    body[class*=woocommerce] .ags-divi-wc-layout-grid.product-columns-tablet-4 ul.products li.product:nth-child(n):nth-child(4n) {
+      margin-right: 0px !important; }
+    body[class*=woocommerce] .ags-divi-wc-layout-grid.product-columns-tablet-4 ul.products li.product:nth-child(n):nth-child(4n+1) {
+      clear: both !important; }
+  body[class*=woocommerce] .ags-divi-wc-layout-grid.product-columns-tablet-3 ul.products li.product:nth-child(n) {
+    width: 30.6% !important;
+    margin: 0 3.8% 2.992em 0 !important;
+    clear: none !important; }
+    body[class*=woocommerce] .ags-divi-wc-layout-grid.product-columns-tablet-3 ul.products li.product:nth-child(n):nth-child(3n) {
+      margin-right: 0px !important; }
+    body[class*=woocommerce] .ags-divi-wc-layout-grid.product-columns-tablet-3 ul.products li.product:nth-child(n):nth-child(3n+1) {
+      clear: both !important; }
+  body[class*=woocommerce] .ags-divi-wc-layout-grid.product-columns-tablet-2 ul.products li.product:nth-child(n) {
+    width: 48% !important;
+    margin: 0 3.8% 2.992em 0 !important;
+    clear: none !important; }
+    body[class*=woocommerce] .ags-divi-wc-layout-grid.product-columns-tablet-2 ul.products li.product:nth-child(n):nth-child(2n) {
+      margin-right: 0px !important; }
+    body[class*=woocommerce] .ags-divi-wc-layout-grid.product-columns-tablet-2 ul.products li.product:nth-child(n):nth-child(2n+1) {
+      clear: both !important; }
+  body[class*=woocommerce] .ags-divi-wc-layout-grid.product-columns-tablet-1 ul.products li.product:nth-child(n) {
+    width: 100% !important;
+    margin-right: 0 !important; } }
+@media all and (max-width: 719px) {
+  body[class*=woocommerce] .ags-divi-wc-layout-grid.product-columns-phone-3 ul.products li.product:nth-child(n) {
+    width: 30.6% !important;
+    margin: 0 3.8% 2.992em 0 !important;
+    clear: none !important; }
+    body[class*=woocommerce] .ags-divi-wc-layout-grid.product-columns-phone-3 ul.products li.product:nth-child(n):nth-child(3n) {
+      margin-right: 0px !important; }
+    body[class*=woocommerce] .ags-divi-wc-layout-grid.product-columns-phone-3 ul.products li.product:nth-child(n):nth-child(3n+1) {
+      clear: both !important; }
+  body[class*=woocommerce] .ags-divi-wc-layout-grid.product-columns-phone-2 ul.products li.product:nth-child(n) {
+    width: 48% !important;
+    margin: 0 3.8% 2.992em 0 !important;
+    clear: none !important; }
+    body[class*=woocommerce] .ags-divi-wc-layout-grid.product-columns-phone-2 ul.products li.product:nth-child(n):nth-child(2n) {
+      margin-right: 0px !important; }
+    body[class*=woocommerce] .ags-divi-wc-layout-grid.product-columns-phone-2 ul.products li.product:nth-child(n):nth-child(2n+1) {
+      clear: both !important; }
+  body[class*=woocommerce] .ags-divi-wc-layout-grid.product-columns-phone-1 ul.products li.product:nth-child(n) {
+    width: 100% !important;
+    margin-right: 0 !important; } }
+.woocommerce.post-type-archive-product.ags-divi-wc-hide-sale-flash .product .onsale, .woocommerce.post-type-archive-product.ags-divi-wc-hide-product-count .woocommerce-result-count, .woocommerce.post-type-archive-product.ags-divi-wc-hide-product-sorting .woocommerce-ordering, .woocommerce.post-type-archive-product.ags-divi-wc-hide-add-to-cart .product .add_to_cart_button, .woocommerce.post-type-archive-product.ags-divi-wc-hide-thumbnail .product .wp-post-image, .woocommerce.post-type-archive-product.ags-divi-wc-hide-price .product .price, .woocommerce.post-type-archive-product.ags-divi-wc-hide-rating .product .star-rating {
+  display: none; }
+
+/*# sourceMappingURL=divi-shop-builder-columns.css.map */

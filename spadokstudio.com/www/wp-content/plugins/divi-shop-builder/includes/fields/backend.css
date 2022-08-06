@@ -1,0 +1,40 @@
+/*! @license
+See the license.txt file for licensing information for third-party code that may be used in this file.
+Relative to the styles/ directory, the license.txt file is located at ../license.txt.
+This file (and/or the corresponding source SCSS and/or CSS file) has been modified by Anna Kurowska, Jonathan Hall, and/or others.
+This file (and/or the corresponding source SCSS and/or CSS file) was last modified 2021-09-03
+ */
+
+@font-face {
+     font-family: "ds_builder";
+     src: url('../media/fonts/divi_shop_builder.eot');
+     src: url('../media/fonts/divi_shop_builder.svg#divi_shop_builder_icons') format('svg');
+     src: url('../media/fonts/divi_shop_builder.ttf') format('truetype');
+     src: url('../media/fonts/divi_shop_builder.woff') format('woff');
+}
+
+.et-db #et-boc .et-l .et-fb-modules-list li {
+&.ags_woo_notices,
+&.ags_woo_cart_list,
+&.ags_woo_cart_totals,
+&.ags_woo_checkout_billing_info,
+&.ags_woo_checkout_coupon,
+&.ags_woo_checkout_order_review,
+&.ags_woo_checkout_shipping_info,
+&.ags_woo_shop_plus,
+&.ags_woo_account_content,
+&.ags_woo_account_navigation,
+&.ags_woo_account_user_image,
+&.ags_woo_account_user_name,
+&.ags_woo_thank_you {
+     border-left: 5px solid #362985 !important;
+     border-radius: 0 5px 5px 0 !important;
+     padding: 10px 15px 10px 10px;
+
+&::before {
+     font-family: "ds_builder";
+     color: #362985;
+ }
+}
+
+}
