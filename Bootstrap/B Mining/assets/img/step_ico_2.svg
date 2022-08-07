@@ -1,0 +1,24 @@
+<svg width="113" height="113" viewBox="0 0 113 113" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="24" y="24" width="65" height="65" rx="32.5" fill="url(#paint0_angular_99_2009)" fill-opacity="0.25"/>
+<g filter="url(#filter0_f_99_2009)">
+<circle cx="56.5" cy="56.5" r="16.5" fill="#F2994A"/>
+</g>
+<circle cx="56.5" cy="56.5" r="37" stroke="url(#paint1_angular_99_2009)"/>
+<path d="M61.3979 45.2324C63.5336 43.0967 66.9962 43.0967 69.1319 45.2324C71.2675 47.368 71.2675 50.8307 69.1319 52.9664L56.2419 65.8563C53.252 68.8462 48.4043 68.8462 45.4143 65.8563C42.4244 62.8664 42.4244 58.0187 45.4143 55.0287L56.2419 44.2012C56.669 43.774 57.3615 43.774 57.7887 44.2012C58.2158 44.6283 58.2158 45.3208 57.7887 45.748L46.9611 56.5755C44.8255 58.7112 44.8255 62.1738 46.9611 64.3095C49.0968 66.4452 52.5594 66.4452 54.6951 64.3095L67.5851 51.4196C68.8665 50.1381 68.8665 48.0605 67.5851 46.7792C66.3036 45.4977 64.2261 45.4978 62.9447 46.7792L50.0547 59.6691C49.6276 60.0962 49.6276 60.7888 50.0547 61.216C50.4819 61.6431 51.1744 61.6431 51.6015 61.2159L62.4291 50.3883C62.8562 49.9612 63.5487 49.9612 63.9759 50.3883C64.403 50.8155 64.403 51.508 63.9759 51.9351L53.1483 62.7627C51.8669 64.0442 49.7893 64.0442 48.5079 62.7627C47.2266 61.4813 47.2266 59.4038 48.5079 58.1223L61.3979 45.2324Z" fill="#F2994A"/>
+<defs>
+<filter id="filter0_f_99_2009" x="0" y="0" width="113" height="113" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="20" result="effect1_foregroundBlur_99_2009"/>
+</filter>
+<radialGradient id="paint0_angular_99_2009" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(69 43.5) rotate(134.193) scale(50.2096 65.9356)">
+<stop stop-color="#0C0028"/>
+<stop offset="0.853932" stop-color="#0099EF"/>
+<stop offset="1" stop-color="#0099EF" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint1_angular_99_2009" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(56.5 56.5) rotate(90) scale(37.5)">
+<stop offset="0.114972" stop-color="#0C0028" stop-opacity="0"/>
+<stop offset="0.577126" stop-color="#0099EF"/>
+</radialGradient>
+</defs>
+</svg>

@@ -1,0 +1,29 @@
+<svg width="113" height="113" viewBox="0 0 113 113" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="24" y="24" width="65" height="65" rx="32.5" fill="url(#paint0_angular_99_2275)" fill-opacity="0.25"/>
+<g filter="url(#filter0_f_99_2275)">
+<circle cx="56.5" cy="56.5" r="16.5" fill="#F2994A"/>
+</g>
+<circle cx="56.5" cy="56.5" r="37" stroke="url(#paint1_angular_99_2275)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M40.8232 50.6666C40.8232 49.2571 41.9659 48.1145 43.3753 48.1145H66.7087C68.1182 48.1145 69.2607 49.2571 69.2607 50.6666V62.3333C69.2607 63.7428 68.1182 64.8853 66.7087 64.8853H43.3753C41.9659 64.8853 40.8232 63.7428 40.8232 62.3333V50.6666ZM43.3753 50.302C43.174 50.302 43.0107 50.4652 43.0107 50.6666V62.3333C43.0107 62.5346 43.174 62.6978 43.3753 62.6978H66.7087C66.91 62.6978 67.0732 62.5346 67.0732 62.3333V50.6666C67.0732 50.4652 66.91 50.302 66.7087 50.302H43.3753Z" fill="#F2994A"/>
+<path d="M69.6253 53.5833H71.0837C71.8891 53.5833 72.542 54.2361 72.542 55.0416V57.9583C72.542 58.7637 71.8891 59.4166 71.0837 59.4166H69.6253V53.5833Z" fill="#F2994A"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M48.4795 53.2187C49.0836 53.2187 49.5732 53.7084 49.5732 54.3124V58.6874C49.5732 59.2915 49.0836 59.7812 48.4795 59.7812C47.8754 59.7812 47.3857 59.2915 47.3857 58.6874V54.3124C47.3857 53.7084 47.8754 53.2187 48.4795 53.2187Z" fill="#F2994A"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M52.8545 53.2187C53.4586 53.2187 53.9482 53.7084 53.9482 54.3124V58.6874C53.9482 59.2915 53.4586 59.7812 52.8545 59.7812C52.2504 59.7812 51.7607 59.2915 51.7607 58.6874V54.3124C51.7607 53.7084 52.2504 53.2187 52.8545 53.2187Z" fill="#F2994A"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M57.2295 53.2187C57.8336 53.2187 58.3232 53.7084 58.3232 54.3124V58.6874C58.3232 59.2915 57.8336 59.7812 57.2295 59.7812C56.6254 59.7812 56.1357 59.2915 56.1357 58.6874V54.3124C56.1357 53.7084 56.6254 53.2187 57.2295 53.2187Z" fill="#F2994A"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M61.6045 53.2187C62.2086 53.2187 62.6982 53.7084 62.6982 54.3124V58.6874C62.6982 59.2915 62.2086 59.7812 61.6045 59.7812C61.0004 59.7812 60.5107 59.2915 60.5107 58.6874V54.3124C60.5107 53.7084 61.0004 53.2187 61.6045 53.2187Z" fill="#F2994A"/>
+<defs>
+<filter id="filter0_f_99_2275" x="0" y="0" width="113" height="113" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="20" result="effect1_foregroundBlur_99_2275"/>
+</filter>
+<radialGradient id="paint0_angular_99_2275" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(69 43.5) rotate(134.193) scale(50.2096 65.9356)">
+<stop stop-color="#0C0028"/>
+<stop offset="0.853932" stop-color="#0099EF"/>
+<stop offset="1" stop-color="#0099EF" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint1_angular_99_2275" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(56.5 56.5) rotate(90) scale(37.5)">
+<stop offset="0.114972" stop-color="#0C0028" stop-opacity="0"/>
+<stop offset="0.577126" stop-color="#0099EF"/>
+</radialGradient>
+</defs>
+</svg>

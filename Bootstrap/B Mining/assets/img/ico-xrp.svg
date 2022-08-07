@@ -1,0 +1,25 @@
+<svg width="113" height="113" viewBox="0 0 113 113" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="24" y="24" width="65" height="65" rx="32.5" fill="url(#paint0_angular_99_2515)" fill-opacity="0.25"/>
+<g filter="url(#filter0_f_99_2515)">
+<circle cx="56.5" cy="56.5" r="16.5" fill="#F2994A"/>
+</g>
+<circle cx="56.5" cy="56.5" r="37" stroke="url(#paint1_angular_99_2515)"/>
+<path d="M70.2733 45.8379L66.1673 45.8938L59.5834 52.4778C58.9116 53.1481 58.0013 53.5246 57.0522 53.5246C56.1031 53.5246 55.1928 53.1481 54.5209 52.4778L47.937 45.8938L43.8311 45.8379L51.9897 53.9965C53.333 55.3379 55.1538 56.0913 57.0522 56.0913C58.9505 56.0913 60.7713 55.3379 62.1147 53.9965L70.2733 45.8379Z" fill="white"/>
+<path d="M43.8311 68.2673L47.937 68.2113L54.5209 61.6274C55.1928 60.9571 56.1031 60.5806 57.0522 60.5806C58.0013 60.5806 58.9116 60.9571 59.5834 61.6274L66.1673 68.2113L70.2733 68.2673L62.1147 60.1087C60.7713 58.7673 58.9505 58.0139 57.0522 58.0139C55.1538 58.0139 53.333 58.7673 51.9897 60.1087L43.8311 68.2673Z" fill="white"/>
+<defs>
+<filter id="filter0_f_99_2515" x="0" y="0" width="113" height="113" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="20" result="effect1_foregroundBlur_99_2515"/>
+</filter>
+<radialGradient id="paint0_angular_99_2515" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(60 49) rotate(130.446) scale(40.0781 52.6308)">
+<stop stop-color="#0C0028"/>
+<stop offset="0.853932" stop-color="#0099EF"/>
+<stop offset="1" stop-color="#0099EF" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint1_angular_99_2515" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(56.5 56.5) rotate(90) scale(37.5)">
+<stop offset="0.114972" stop-color="#0C0028" stop-opacity="0"/>
+<stop offset="0.577126" stop-color="#0099EF"/>
+</radialGradient>
+</defs>
+</svg>
