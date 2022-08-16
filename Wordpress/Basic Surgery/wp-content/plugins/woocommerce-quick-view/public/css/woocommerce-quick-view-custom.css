@@ -1,0 +1,25 @@
+.quickviewmodal { 
+			padding-top: 10px; 
+			padding-right: 10px; 
+			padding-bottom: 10px; 
+			padding-left: 10px; 
+			background-color: #FFFFFF;
+		}
+
+		.woocommerce-quick-view-content {
+			color: #333333;
+			max-height: 320px;
+		}
+
+		.jquery-quickviewmodal.blocker  {
+			background-color: rgba(0,0,0,0.7);
+		}
+
+		@media (min-width: 768px) { 
+			.woocommerce-quick-view-image  {
+				width: 50%;
+			}
+			.woocommerce-quick-view-content  {
+				width: 50%;
+			}
+		}

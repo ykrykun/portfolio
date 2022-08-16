@@ -1,0 +1,9 @@
+<wpml-config>
+	<admin-texts>
+		<key name="woocommerce_quick_view_options">
+			<key name="shopLoopButtonText" />
+		</key> 
+	</admin-texts>
+</wpml-config>
+
+

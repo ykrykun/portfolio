@@ -1,0 +1,379 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Quick View\n"
+"POT-Creation-Date: 2016-10-31 09:04+0100\n"
+"PO-Revision-Date: 2016-10-31 09:05+0100\n"
+"Last-Translator: Daniel Barenkamp\n"
+"Language-Team: DB-Dzine <support@db-dzine.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: admin/redux-framework\n"
+"X-Poedit-SearchPathExcluded-1: admin/redux-extensions\n"
+
+#: admin/class-woocommerce-quick-view-admin.php:70
+msgid "Mandatory Accessories"
+msgstr "Benötigtes Zubehör"
+
+#: admin/class-woocommerce-quick-view-admin.php:83
+msgid "Mandatory Accessories that are needed for your product."
+msgstr ""
+
+#: admin/class-woocommerce-quick-view-admin.php:100
+msgid "Optional Accessories"
+msgstr "Optionales Zubehör"
+
+#: admin/class-woocommerce-quick-view-admin.php:113
+msgid ""
+"Optional Accessories that are not needed for your product, but very helpful."
+msgstr ""
+
+#: public/partials/accessories.php:40
+msgid "Accessories &hellip;"
+msgstr "Zubehör &hellip;"
+
+#: public/partials/mandatory-accessories.php:40
+msgid "Mandatory Accessories &hellip;"
+msgstr "Benötigtes Zubehör &hellip;"
+
+#: public/partials/optional-accessories.php:40
+msgid "Optional Accessories &hellip;"
+msgstr "Optionales Zubehör &hellip;"
+
+#: woocommerce-quick-view.php:83
+msgid ""
+"WooCommerce Quick View requires the WooCommerce plugin. Please "
+"install or activate WooCommerce!"
+msgstr ""
+"WooCommerce Quick View benötigt das WooCommerce plugin! Bitte "
+"installieren oder aktivieren Sie WooCommerce!"
+
+#~ msgid "Duplicate to All Sites"
+#~ msgstr "In allen Seiten duplizieren"
+
+#~ msgid "Duplicate to Site: "
+#~ msgstr "Duplizieren nach:"
+
+#~ msgid "No product to duplicate has been supplied!"
+#~ msgstr "Keine Produkte zum Duplizieren gefunden!"
+
+#~ msgid "Product creation failed, could not find original product:"
+#~ msgstr ""
+#~ "Erstellung des Produktes fehlgeschlagen, konnte das Original nicht finden:"
+
+#~ msgid "Product successfully duplicated."
+#~ msgstr "Produkt erfolgreich dupliziert."
+
+#~ msgid "Select an item"
+#~ msgstr "Wähle ein Elemtn"
+
+#~ msgid "Information"
+#~ msgstr "Informationen"
+
+#~ msgid "<p>Need support?</p>"
+#~ msgstr "<p>Brauchst du Hilfe?</p>"
+
+#~ msgid "WooCommerce Quick View"
+#~ msgstr "WooCommerce Quick View"
+
+#~ msgid "Need support? Please use the comment function on codecanyon."
+#~ msgstr ""
+#~ "Brauchen Sie Hilfe? Dann schildern Sie uns bitte Ihr Problem auf "
+#~ "Codecanyon."
+
+#~ msgid "General"
+#~ msgstr "Allgemein"
+
+#~ msgid "Enable"
+#~ msgstr "Aktivieren"
+
+#~ msgid "Enable multisite duplicate mode."
+#~ msgstr "Aktiviere WooCommerce Quick View modus."
+
+#~ msgid "Show Duplicate Link in Product List"
+#~ msgstr "Zeige den Duplizieren-Link in der Produktliste"
+
+#~ msgid "Show Duplicate Link on Product Page"
+#~ msgstr "Zeige den Duplizieren-Link auf der Produktseite"
+
+#~ msgid "Redirect to the copied product."
+#~ msgstr "Zum duplizierten Produkt weiterleiten."
+
+#~ msgid "This will redirect you to the copied product of the last site."
+#~ msgstr ""
+#~ "Das wird Sie zu dem kopierten Produkt auf der letzten Seite weiterleiten."
+
+#~ msgid "Select Sites "
+#~ msgstr "Seiten wählen"
+
+#~ msgid ""
+#~ "Select the sites, where the products should be duplicated. </br><b>Empty "
+#~ "means all sites.</b>"
+#~ msgstr ""
+#~ "Wähle diejenigen Seiten, wohin die Produkte dupliziert werden sollen. <br/"
+#~ "><b>Leer = Alle Seiten.</b>"
+
+#~ msgid "Post Status"
+#~ msgstr "Post Status"
+
+#~ msgid ""
+#~ "Set the post status of the duplicated product (publish, pending, draft, "
+#~ "private ...).<br/>\n"
+#~ "                    <a href=\"https://codex.wordpress.org/Post_Status\" "
+#~ "target=\"_blank\">Click here to see all.</a>"
+#~ msgstr ""
+#~ "Setzt den post status des duplizierten Produkts. (publish, pending, "
+#~ "draft, private ...).<br/>\n"
+#~ "                    <a href=\"https://codex.wordpress.org/Post_Status\" "
+#~ "target=\"_blank\">Hier klicken für mehr Informationen.</a>"
+
+#~ msgid "Suffix"
+#~ msgstr "Suffix"
+
+#~ msgid "Sets a suffix of the duplicated product (e.g. copied)"
+#~ msgstr "Legt einen Suffix für das kopierte Produkt fest."
+
+#~ msgid "Data to duplicate"
+#~ msgstr "Daten"
+
+#~ msgid "Choose the data you want do duplicate."
+#~ msgstr "Wähle die Daten die dupliziert werden sollen."
+
+#~ msgid "Duplicate Image(s)"
+#~ msgstr "Dupliziere Bilder"
+
+#~ msgid "Duplicate Attributes"
+#~ msgstr "Dupliziere Attribute"
+
+#~ msgid "Duplicate Post Taxonomies"
+#~ msgstr "Dupliziere Post Taxonomies"
+
+#~ msgid "Duplicate Post Meta"
+#~ msgstr "Dupliziere Post Meta"
+
+#~ msgid "Duplicate Variations"
+#~ msgstr "Dupliziere Variationen"
+
+#~ msgid "Limit Access"
+#~ msgstr "Zugang limiteren"
+
+#~ msgid "Enable the limit access. This will activate the below settings."
+#~ msgstr ""
+#~ "Zugang limitieren aktivieren. Dies aktiviert die nachfolgenden "
+#~ "Einstellungen."
+
+#~ msgid "User Role"
+#~ msgstr "Nutzerrolle"
+
+#~ msgid ""
+#~ "Select a custom user Role (Default is: administrator) who can use this "
+#~ "plugin."
+#~ msgstr ""
+#~ "Wähle eine bestimmte Nutzerrolle (Standard: administrator) die das Plugin "
+#~ "nutzen können."
+
+#~ msgid "Capability"
+#~ msgstr "Rechte"
+
+#~ msgid ""
+#~ "Select a custom capability. (Default is: manage_network) who can use this "
+#~ "plugin."
+#~ msgstr ""
+#~ "Wähle ein bestimmtes Recht (Standard: manage_network), das der Nutzer "
+#~ "haben muss."
+
+#~ msgid "<p>Need support? Please use the comment function on codecanyon.</p>"
+#~ msgstr ""
+#~ "<p>Brauchen Sie Hilfe? Dann schildern Sie uns bitte Ihr Problem auf "
+#~ "Codecanyon.</p>"
+
+#~ msgid "Catalog Mode"
+#~ msgstr "Katalog Modus"
+
+#~ msgid "Enable catalog mode to use the options below"
+#~ msgstr ""
+#~ "Aktiviere den Katalog-Modus um die Optionen unten benutzen zu können"
+
+#~ msgid "Remove add to cart button"
+#~ msgstr "Entferne den Warenkorb-Button"
+
+#~ msgid "Removes the add to cart button on single product and category pages."
+#~ msgstr ""
+#~ "Entfernt den „Zum Warenkorb hinzufügen“-Button auf Produkt- und "
+#~ "Kategorieseiten."
+
+#~ msgid "Remove price"
+#~ msgstr "Entferne den Preis"
+
+#~ msgid "Removes price on single product and category pages."
+#~ msgstr "Entfernt den Preis auf Produkt- und Kategorieseiten."
+
+#~ msgid "Redirect Cart / Checkout Page"
+#~ msgstr "Warenkorb und Kassen-Seiten Umleiten"
+
+#~ msgid "Redirects the cart and checkout page to your home page."
+#~ msgstr "Richtet eine Weiterleitung für die Warenkorb und Kassen-Seite ein."
+
+#~ msgid "Apply for users"
+#~ msgstr "Anwenden auf Nutzer"
+
+#~ msgid "Which user group should be affected by the catalog mode."
+#~ msgstr "Welche Nutzer sollen betroffen sein?"
+
+#~ msgid "All"
+#~ msgstr "Alle"
+
+#~ msgid "Only NOT logged in"
+#~ msgstr "Nur „NICHT“ eingeloggte User"
+
+#~ msgid "Only Logged in"
+#~ msgstr "Nur eingeloggte User"
+
+#~ msgid "Exclusions"
+#~ msgstr "Ausnahmen"
+
+#~ msgid ""
+#~ "With the below settings you can exclude products / categories so that the "
+#~ "price and add to cart will be shown."
+#~ msgstr "Der Preis und Warenkorb-Button wird trotzdem angezeigt."
+
+#~ msgid "Exclude Product Categories"
+#~ msgstr "Ausnahmen für Produktkategorien"
+
+#~ msgid "Which product categories should be excluded by the catalog mode."
+#~ msgstr "Welche Produktkategorien sollen nicht betroffen werden?"
+
+#~ msgid "Exclude Products "
+#~ msgstr "Ausnahmen für Produkte"
+
+#~ msgid "Which products should be excluded by the catalog mode."
+#~ msgstr "Welche Produkte sollen nicht betroffen werden?"
+
+#~ msgid "Product Categories"
+#~ msgstr "Produktkategorien"
+
+#~ msgid ""
+#~ "Replace the add to cart button on category / archive / tag pages with "
+#~ "your own button."
+#~ msgstr ""
+#~ "Ersetzt den Warenkorb-Button auf Kategorie, Archiv und Tag-Seiten durch "
+#~ "einen eigenen."
+
+#~ msgid "Enables the custom button on loop pages."
+#~ msgstr "Aktivere den eigenen Button auf Schleifen-Seiten"
+
+#~ msgid "Button Text"
+#~ msgstr "Button Text"
+
+#~ msgid "Text inside the custom button."
+#~ msgstr "Text im Button"
+
+#~ msgid "Button Action"
+#~ msgstr "Button Aktion"
+
+#~ msgid "What happens when the User clicks the button."
+#~ msgstr "Was passiert wenn der Nutzer den Button klickt."
+
+#~ msgid "Go to product page"
+#~ msgstr "Gehe zur Produktseite"
+
+#~ msgid "Go to custom URL"
+#~ msgstr "Gehe zu URL"
+
+#~ msgid "Button custom URL"
+#~ msgstr "Eigene URL"
+
+#~ msgid "The URL where the user will be sent to when he clicked the button."
+#~ msgstr "URL wo der Nutzer hingeleitet wird, falls er auf den Button klickt."
+
+#~ msgid "Button custom URL target"
+#~ msgstr "Button URL-Target"
+
+#~ msgid "The target attribute of the link."
+#~ msgstr "Das Ziel-Attribut des Links."
+
+#~ msgid "_self (same Window)"
+#~ msgstr "_self (selbes Fenster)"
+
+#~ msgid "_blank (new Window)"
+#~ msgstr "_blank (neues Fenster)"
+
+#~ msgid "_parent (parent Window)"
+#~ msgstr "_parent (Eltern-Fenster)"
+
+#~ msgid "_top (full body of the Window)"
+#~ msgstr "_top (ganzes Fenster)"
+
+#~ msgid "Single Product Pages"
+#~ msgstr "Einzelprodukt-Seiten"
+
+#~ msgid ""
+#~ "Replace the add to cart button on single product pages with your own."
+#~ msgstr ""
+#~ "Ersetzt den Warenkorb-Button auf Einzelprodukt-Seiten durch Ihren eigenen."
+
+#~ msgid "Enables the single product custom button."
+#~ msgstr "Aktiviert den Einzelprodukt-Seiten Button"
+
+#~ msgid "Open enquiry form"
+#~ msgstr "Öffne ein Kontaktformular"
+
+#~ msgid "Custom Button URL target"
+#~ msgstr "Ziel der URL"
+
+#~ msgid "Enquiry Title"
+#~ msgstr "Kontaktformular Titel"
+
+#~ msgid "The title of the enquiry Modal"
+#~ msgstr "Der Titel des Kontaktformulars."
+
+#~ msgid "Enquiry contact form"
+#~ msgstr "Kontaktformular"
+
+#~ msgid "Please insert your contact form shortcode."
+#~ msgstr "Shortcode des Kontaktformulars."
+
+#~ msgid "Enquiry Modal size"
+#~ msgstr "Größe des Pop-Up-Fensters"
+
+#~ msgid "Size of the Enquiry modal."
+#~ msgstr "Die Größe des Pop-Up-Fensters"
+
+#~ msgid "Normal"
+#~ msgstr "Normal"
+
+#~ msgid "Small"
+#~ msgstr "Klein"
+
+#~ msgid "Large"
+#~ msgstr "Groß"
+
+#~ msgid "Advanced settings"
+#~ msgstr "Erweiterte Einstellungen"
+
+#~ msgid "Custom stylesheet / javascript."
+#~ msgstr "Eigenes Stylesheet / Javascript."
+
+#~ msgid "Custom CSS"
+#~ msgstr "Eigenes CSS"
+
+#~ msgid "Add some stylesheet if you want."
+#~ msgstr "Gib dem Plugin dein eigenes Styling."
+
+#~ msgid "Custom JS"
+#~ msgstr "Eigenes JS"
+
+#~ msgid "Add some javascript if you want."
+#~ msgstr "Gib dem Plugin eigene Funktionen."
+
+#~ msgid "Loop Button"
+#~ msgstr "Schleifen-Button"
+
+#~ msgid "What happens when the User clicks this button."
+#~ msgstr "Was passiert wenn der Nutzer den Button klickt."
