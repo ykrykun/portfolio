@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --font-roboto: 'Roboto', sans-serif;
+  --text-blue: #0061A3;
+}
+body, html {
+  font-family: var(--font-roboto);
+}
+
+img, svg {
+  width: 100%;
+}
+a {
+  color: var(--text-blue);
+}
+.bd-content {
+    max-width: 1224px;
+}
+.top-nav {
+  gap: 30px;
+}
+.bg-nav {
+  background: #F30000;
+  border-radius: 8px;
+}
+.btn-nav {
+  width: 178px;
+  height: 34px;
+  background: #0061A3;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 25px;
+}
+.nav-item a:after {
+    border-right: 1px solid #fff;
+    content: "";
+    padding-left: 25px;
+}
+a.nav-link {
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+a.nav-link.active {
+  text-decoration-line: underline;
+}
+.top-nav .social {
+    gap: 10px;
+}
+.top-nav .social-info {
+  width: 112px;
+}
+section.banner img {
+    max-width: 100%;
+}
+h3.title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+}
+section {
+  padding-bottom: 75px;
+}
+.card {
+  margin: 15px 0;
+}
+/* Cards */
+.banner .cards {
+  margin-top: 30px;
+}
+.banner .card {
+  width: 380px;
+  padding: 5px;
+}
+.banner .card-body {
+  padding: 5px;
+}
+.banner .card img {
+  width: 70px;
+}
+.banner .card-title h5 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.banner .card-title a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-decoration-line: underline;
+  color: var(--text-blue);
+  margin-bottom: 5px;
+}
+.banner .card-body p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: #5F5F5F;
+  margin: 0;
+}
+.bg-red {
+  background: #F30000;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 10px;
+}
+
+/* lottery */
+
+.lottery .cards {
+  margin-top: 30px;
+}
+.lottery .card {
+  width: 380px;
+}
+.lottery .card-body {
+  padding: 10px 0px 5px 23px;s
+}
+.lottery .card img {
+  width: 141px;
+  margin-right: 23px;
+}
+
+.lottery .card-title h5 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.lottery .card-title a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-decoration-line: underline;
+  color: var(--text-blue);
+  margin-bottom: 5px;
+}
+.lottery .card-body .price {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 22px;
+  color: #13902A;
+}
+.lottery .card-body .fi {
+  margin-right: 10px;
+}
+.lottery .card-footer {
+  padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
+  background: var(--text-blue);
+  border-top: none;
+}
+.lottery .btn-play {
+  width: 171px;
+}
+.lottery .card-footer {
+  gap: 40px;
+}
+.lottery .card-timer {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+}
+/* PLAY UPCOMING LOTTERIES ONLINE */
+/*.lotterie-online .card {
+  display: none;
+}*/
+.lotterie-online .card {
+    width: 208px;
+}
+.lotterie-online .card-body {
+  padding: 13px;
+}
+.lotterie-online .card-body img {
+  max-width: 96px;
+  margin-bottom: 28px;
+}
+.lotterie-online .card-body h5 {
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.lotterie-online .card-body .price {
+  font-weight: 700;
+  font-size: 20px;
+}
+.lotterie-online .card-body .card-timer {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--text-blue);
+
+}
+.lotterie-online .btn-play {
+  background: #F7D300;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 182px;
+  margin-top: 12px;
+}
+@media (max-width: 480px) {
+  .lotterie-online .card {
+    width: 155px;
+  }
+}
+/* lotterie Winner */
+.lotterie-winner .card {
+    padding: 10px 15px;
+}
+.lotterie-winner .card-text button {
+  width: 232px;
+}
+.lotterie-winner .card-top img {
+  max-width: 50px;
+  margin-right: 20px;
+}
+.lotterie-winner .card-top .title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.lotterie-winner .card-text .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.lotterie-winner .card-text .text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.lotterie-winner .card-top .title span {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 22px;
+  color: var(--text-blue);
+}
+.lotterie-winner .card-text {
+  width: 235px;
+}
+.lotterie-winner .card-body .results-text{
+  font-weight: 500;
+  font-size: 14px;
+  color: #000000;
+  text-transform: uppercase;
+  margin: 0;
+}
+.lotterie-winner .card-body .results strong {
+  background: #F30000;
+  border-radius: 50px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 3px;
+  margin: 0;
+}
+.lotterie-winner .card-numbers .date {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  text-align: center;
+  color: #000000;
+  margin-top: 5px;
+}
+
+.lotterie-winner .card.card-total p {
+    font-weight: 400;
+    font-size: 18px;
+}
+.lotterie-winner .card.card-total .card-summ {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 22px;
+    color: #13902A;
+}
+.lotterie-winner .card.card-total .ticket-title {
+    font-weight: 500;
+    font-size: 26px;
+}
+.lotterie-winner .card.card-total .ticket-text {
+  font-weight: 400;
+  font-size: 18px;
+}
+.lotterie-winner .card-info img  {
+  width: 75px;
+}
+.lotterie-winner .winner-info .date {
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0;
+}
+.lotterie-winner .winner-info .nickname {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0;
+}
+.lotterie-winner .winner-info .number {
+  font-weight: 400;
+  font-size: 14px;
+  color: #5F5F5F;
+}
+
+/* FAQ */
+.accordion-button {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--text-blue);
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+}
+/* FOOTER */
+.footer-nav {
+  background: url(../assets/footer-bg.png);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+footer .social {
+    gap: 10px;
+}
+footer .social img, footer .customer img{
+    width: 36px;
+}
+.customer-item .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+  margin: 0;
+}
+
+.customer-item .text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: #5F5F5F;
+}
